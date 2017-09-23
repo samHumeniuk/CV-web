@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<!--inspiration from: http://www.wix.com/website-template/view/html/1674?originUrl=http%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fpersonal%2Fresume-cv%2F1&bookName=create-master-new&galleryDocIndex=3&category=personal&metaSiteId=-->
+
+<html>
+	<head>
+		<style>			
+			@font-face 
+			{
+			   font-family: Simplifica;
+			   src: url("./Sam Humeniuk CV Resources/fonts/simplifica/simplifica.ttf") /* TTF file for CSS3 browsers */
+			}
+			
+			@font-face 
+			{
+			   font-family: Brown;
+			   src: url("./Sam Humeniuk CV Resources/fonts/brown/brown.ttf") /* TTF file for CSS3 browsers */
+			}
+		
+			body 
+			{
+				background-color: #a8c3e1; //skyblue //silver; //#C8DADA//lightblue //#A3C2C2 //whitesmoke;
+				//background-image: url("Sam Humeniuk CV Resources/wood_effect_texture.jpg");
+				//background-attachment: fixed;
+				//background-size:cover;
+			}
+			img
+			{
+				max-width: 100%;
+			}
+			p
+			{
+				margin-left: 4em;
+				margin-right: 4em;
+				text-align: justify;
+			}
+			h1 
+			{
+				padding-top: 0.5em;
+				margin-bottom: 0em;
+				text-align: center;
+				font-size: 200%;
+			} 
+			h3
+			{
+				text-align: center;
+			}
+			h4
+			{
+				text-align: center;
+				font-size: 120%;
+			}
+			.casual
+			{
+				font-family: "Brown", Helvetica, sans-serif;
+			}
+			.impact
+			{
+				font-family: "Simplifica", "Trebuchet MS", Helvetica, sans-serif;
+				font-size: 35pt;
+				letter-spacing: 0.2em;
+			}
+			.centered
+			{
+				text-align: center;
+			}
+			article
+			{
+				border-radius: 3px;
+				background-color: Ivory;
+				margin: 0 auto;
+				margin-bottom: 20px;
+				border-color: #BABABA;
+				border-style: solid;
+				border-width: 2px;
+			}
+			article.landscape
+			{
+				width: 70em;
+				min-height: 40em;
+			}
+			article.portrait
+			{
+				width: 50em;
+				min-height: 60em;
+			}
+			section
+			{
+				border-radius: 3px;
+				background-color: floralwhite;
+				margin: 0 auto;
+				margin-top: 100px;
+				width: 22em;
+				min-height: 13.5em;
+				border-color: #BABABA;
+				border-style: solid;
+				border-width: 2px;
+				display:block;
+				/*-ms-transform: rotate(3deg);*/
+				/*-webkit-transform: rotate(3deg);*/
+				/*transform: rotate(3deg);*/
+			}
+
+			ul.menu 
+			{
+				list-style-type: none;
+				margin: 0 auto;
+				padding-bottom: 1em;
+				min-height: 2em;
+				width: 50em;
+			}
+			li.menu 
+			{
+				display: inline;
+				padding-right: 1em;
+				padding-left: 1em;
+				padding-top:1em;
+				float:right;
+
+			}
+			a:link 
+			{
+
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				color: ivory;
+				width: 120px;
+				font-weight: bold;
+				text-align: center;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				padding-left: 1em;
+				padding-right: 1em;
+				text-decoration: none;
+				border-radius: 3px;
+			}
+			a:visited
+			{
+				color: ivory;
+			}
+			a:hover, a:active 
+			{
+				color: navy
+			}
+			div
+			{
+				margin-left:3em;
+				margin-right:3em;
+			}
+			table
+			{
+				border-collapse: collapse;
+				border-radius: 5px;
+				margin: 0 auto;
+				min-width: 40em;
+				margin-bottom: 0.5em;
+			}
+			table.casual
+			{
+				border: solid 1px;
+				min-width: 45em;
+			}
+			td, th
+			{
+				padding: 5px;
+			}
+			td
+			{
+				padding-left: 20px;
+				text-align: justify;
+			}
+			table.casual td, table.casual th
+			{
+				border: solid 1px;
+			}
+			table.casual tr:nth-child(even) 
+			{
+				background-color: #eee;
+			}
+			table.casual tr:nth-child(odd) 
+			{
+				background-color: #C8DADA;
+			}
+			.business, businessTwo
+			{
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+			}
+			div.businessTwo
+			{
+				background-color:  #207373;
+				width: 100%;
+				margin: 0;
+				min-height: 4px;
+			}
+			div.business
+			{
+				background-color: #E8E8E8;
+				width: 100%;
+				margin: 0;
+				font-size:85%;
+			}
+			table.business
+			{
+				width:100%;
+				min-width: 0;
+			}
+			table.business tr td
+			{
+				text-align: left;
+				color: black;
+			}
+			h1.business, h3.business
+			{
+				color: silver;
+				margin: 0;
+			}
+			ul
+			{
+				padding-left: 1em;
+				margin: 0em;
+			}
+			li
+			{
+				text-align: justify;
+			}
+			.split
+			{
+				width: 50%;
+			}
+			.social
+			{
+				text-align: center;
+			}
+			.skills
+			{
+				text-align: center;
+				height: 3em;
+			}
+			
+		</style>
+		
+		<title>Sam Humeniuk - CV</title>
+	</head>
+
+	<body>
+		<ul class="menu">
+			<li class="menu" id="contactButton"><a href=""><u>Contact</u></a></li>
+			<li class="menu" id="cVButton"><a href=""><u>Curriculum Vitae</u></a></li>
+			<li class="menu" id="homeButton"><a href=""><u>Home</u></a></li>
+		</ul>
+			  
+		<div id="home">
+			<article class="landscape">
+				<h1 class="impact">Sam Humeniuk</h1>
+				<h3 class="casual">Software Engineer available for work</h3>
+				<table>
+					<tr>
+						<td class="split">
+							<p id="intro" class="casual">Good day, I am a Software Engineer recently graduated from the University of Portsmouth looking for employment.</p>
+							<br>
+							<hr/>
+							<br>
+							<h3 class="casual">Skills</h3>
+							<div class="skills">
+								<img class="skills" src="Sam Humeniuk CV Resources/skills/HTML5_CSS_JavaScript.png" alt="HTML5, CSS, JavaScript">
+								<img class="skills" src="Sam Humeniuk CV Resources/skills/java.png" alt="Java">
+								<img class="skills" src="Sam Humeniuk CV Resources/skills/python.png" alt="Python">
+								<img class="skills" src="Sam Humeniuk CV Resources/skills/subversion.png" alt="Subversion">
+								<img class="skills" src="Sam Humeniuk CV Resources/skills/postgreSQL.png" alt="PostgreSQL">
+							</div>
+
+						</td>
+						<td class="split" >
+							<p>
+								<img src="Sam Humeniuk CV Resources/samHumeniuk.jpg" style="height: 25em; border-radius: 50%" alt="Sam Humeniuk">
+							</p>
+							<div class="social">
+								<a href="https://www.facebook.com/samHumeniuk" target="_blank">
+									<img src="Sam Humeniuk CV Resources/social/facebook.png">
+								</a>
+								<a href="https://twitter.com/SamHumeniuk" target="_blank">
+									<img src="Sam Humeniuk CV Resources/social/twitter.png">
+								</a>
+								<a href="https://www.linkedin.com/in/sam-humeniuk/" target="_blank">
+									<img src="Sam Humeniuk CV Resources/social/linkedin.png">
+								</a>
+							</div>
+
+						</td>
+					</tr>
+				</table>
+				
+				<script>
+					var date = new Date();
+					var currentHour = date.getHours();
+					var timeOfDay;
+					if (currentHour < 12)
+					{
+						timeOfDay = "morning";
+					}
+					else if (currentHour < 18)
+					{
+						timeOfDay = "afternoon";
+					}
+					else
+					{
+						timeOfDay = "evening";
+					}
+					var intro = document.getElementById("intro");
+					intro.innerHTML = intro.innerHTML.replace("day", timeOfDay);
+
+				</script>
+
+			</article>
+
+			<article class="portrait">
+				<h4 class="casual">University Modules:</h4>
+				<div><table class="casual">
+					<tr><th width="90%"><b>First Year Units:</b></th><th><b>Grade</b></th></tr>
+					<tr><td >Introduction to Programming 
+							<br><br>
+					</td><td>90%</td></tr>
+					<tr><td >Introduction to Database Design and Development
+						<br> <br>
+					</td><td>71%</td></tr>
+					<tr><td >Computer Architecture with Maths
+						<br> <br>
+					</td><td>88%</td></tr>
+					<tr><td >Web Foundations
+						<br> <br>
+					</td><td>64%</td></tr>
+					<tr><td >Network Fundamentals
+						<br> <br>
+					</td><td>70%</td></tr>
+					</table></div>
+
+				<div><table class="casual">
+					<tr><th width="90%"><b>Second Year Units:</b></th><th><b>Grade</b></th></tr>
+					<tr><td >Advanced Programming
+						<br><br>
+					</td><td>74%</td></tr>
+					<tr><td >Data Structures and Algorithms
+						<br><br>
+					</td><td>82%</td></tr>
+					<tr><td >Discrete Maths and Functional Programming
+						<br><br>
+					</td><td>86%</td></tr>
+					<tr><td >Web Script Programming
+						<br><br>
+					</td><td>70%</td></tr>
+					<tr><td >Introduction To Software Engineering
+						<br><br>
+					</td><td>58%</td></tr>
+					<tr><td >Getting Usability into Development Environments
+						<br> <br>
+					</td><td>65%</td></tr>
+				</table></div>
+
+				<div><table class="casual">
+					<tr><th width="90%"><b>Final Year Units:</b></th><th><b>Grade</b></th></tr>
+					<tr><td>Advanced Software Engineering
+						<br><br>
+					</td><td>77%</td></tr>
+					<tr><td>Fuzzy Logic - Theory and Applications
+						<br><br>
+					</td><td>71%</td></tr>
+					<tr><td>Reliable and Secure Systems
+						<br><br>
+					</td><td>73%</td></tr>
+					<tr><td >Neural Networks and Genetic Algorithms
+						<br><br>
+					</td><td>80%</td></tr>
+					<tr><td >Individual Project
+						<br><br>
+					</td><td>60%</td></tr>
+				</table></div>
+
+			</article>
+		
+		</div>
+		
+		<div style="display:none;" id="cV">
+			<article class="portrait">
+
+				<h1>Sam Humeniuk</h1>
+				<p class="centered">2 Hillside Crescent, Cheshunt, Hertfordshire, EN8 8PW <br>
+					samhumeniuk1@gmail.com <br>
+					+44 (0)7910 395099 <br>
+				</p> 
+				<h4><u>Profile</u></h4>
+				<p>Graduate with a First Class degree in BSc (Hons) Software Engineering from the University of Portsmouth, looking for a graduate role in software engineering. Gained commercial experience during a 12-month placement with Stannah working in a small team developing an Enterprise Resource Management System. </p>
+				
+				<h4><u>Previous Employment</u></h4>
+				<div>
+					<table>
+						<tr>
+							<td>July 2015 - July 2016</td><td><b>Java Developer </b> (Stannah, Andover)
+							<ul><li>Worked on the development of both the front-end and back-end of Stannah’s stock, finance and human resource systems. </li>
+							<li>Performed maintenance tasks and bug-fixes on existing code and wrote code to create new functionality. </li>
+							<li>Worked effectively as part of a small team using Subversion control to manage source code in an agile development environment.</li>
+							<li>Improved skills with a range of other technologies and languages including postgresql, xml, ajax, maven. </li>
+							</td>
+						</tr>
+						<tr>
+							<td>June - Aug 2014</td><td><b>Android App Developer</b> (Temporary Contract for Amageo)
+							<ul><li>Designed and implemented an app to manipulate geological Json data, allowing tables, graphs and maps to be generated.</li>
+							<li>Primarily used Basic4Android for this, but also coded in Powershell. </li>
+							<li>Project spanned approximately 330 hours, including testing and debugging, requiring over 4000 lines of code. </li>
+							<li>This project confirmed my intention to pursue a career in software development and showed me an insight into programming in the real-world, helping me to develop my self motivation, ability to meet deadlines, communication and team skills. </li>
+							</td>
+						</tr>
+						<tr>
+							<td>October 2010</td><td><b>Work experience - 5 days</b> (W.H. Smiths)  <br>
+							Organised and priced stock, sorted deliveries and stacked shelves. </td>
+						</tr>
+						<tr>
+							<td>2010 - 2013</td><td><b>Local Paper round </b> (Newsquest)<br>
+							Responsible for delivering approximately 200 papers per week.</td>
+						</tr>
+					</table>
+				</div>
+				
+			</article>
+			
+			<article class="portrait">
+				<h4><u>Education</u></h4>
+				<div>
+				<table>
+					<tr><th><b>2013 - present</b></th><th><b>University Of Portsmouth: <br> BSc (Hons) Software Engineering:</b></th></tr>
+					<tr><td></td><td><b>Relevant Modules Studied</b></td><td><b>Grade</b></td></tr>
+					<tr><td></td><td><u>Introduction to Programming:</u><br>
+						Used Python and Java to learn both procedural and object-oriented programming paradigms, working in a team to make a text-based detective game in Java and a patchwork sampler using Python’s graphics module.
+					</td><td>90%</td></tr>
+					<tr><td></td><td><u>Introduction to Database Design and Development:</u><br>
+						In addition to studying SQL, gained knowledge of techniques such as normalisation, Use-Case diagrams and Entity Relationship modelling. Coursework involved constructing a database system for the 2014 Winter Olympics. 
+					</td><td>71%</td></tr>
+					<tr><td></td><td><u>Web-Script Programming:</u><br>
+						Creating an e-commerce site with an API, using JavaScript, PHP and SQL whilst also learning about emerging technologies such as node.js and jquery.
+					</td><td>70%</td></tr>
+					<tr><td></td><td><u>Advanced Programming:</u><br>
+						Experienced advanced techniques such as inheritance, abstraction and polymorphism using Java. Looked at critically comparing languages, lexical analysis and parsing.  
+					</td><td>74%</td></tr>
+					<tr><td></td><td><u>Reliable and Secure Systems:</u><br>
+						Studied computer security from both an offensive and defensive point of view. Learnt techniques such as buffer overflow, SQL injection and address space layout randomisation. 
+						<br><br>
+					</td><td>73%</td></tr>
+				<tr><th>2006 – 2013</th><th>Cheshunt Secondary School, Hertfordshire:</th><th></th></tr>
+				<tr><td></td><td><b>A levels 2013:</b> Maths(C), Physics (C) <br>
+					<b>AS level:</b>  Business Studies (D)<br>
+					IT Btec Distinction
+				</td><td></td></tr>
+				<tr><td></td><td><b>GCSEs 2011:</b> 10 x (A* - C) <br>
+					BTECs: PE, IT 
+				</td><td></td></tr>
+				</table>
+				</div>
+				
+				<h4><u>Interests and Achievements</u></h4>
+				<div><div><ul>
+					<li>In 2016 completed a Choose A Challenge trek to the peak of Mt. Kilimanjaro, raising £2900 in aid of the Meningitis Research Foundation.</li>
+					<li>Previously played football for Cuffley Clarets F.C winning Player of the Year in 2006 and Players’ Player in 2008. Won Lea Valley Football Association Cup in 2009 as part of school team.</li>
+					<li>Developed leadership skills and improved confidence while organising younger students running an after-school table tennis club whilst in Sixth Form. </li>
+					<li>Won Cheshunt School Cross-Country Athlete of the Year in 2009 and 2011.</li>
+					<li>Other hobbies include: badminton, table-tennis, free-running, gymnastics, fencing, skiing, juggling and circus skills.</li> 
+				</ul></div></div>
+				<h4><u>References</u></h4>
+				<div><p>Available upon request.</p></div>
+			</article>
+		</div>
+		
+		<section style="display:none;" id="contact">
+			
+			<div class="businessTwo">
+				<h1 class="business">Sam Humeniuk</h1>
+				<h3 class="business"> Software Engineer </h3>
+			</div>
+			<div class="business"><table class="business"><tr><td>2 Hillside Crescent, Cheshunt, Hertfordshire,<br> EN8 8PW</td><td> 
+				samhumeniuk1@gmail.com <br> <br>
+				+44 (0)7910 395099 <br> <br>
+				Github: samHumeniuk</td> </tr></table> <br>
+			</div>
+			<div class="businessTwo"></div>
+		</section>
+
+		<script type="text/javascript">
+			
+			var contactButton = document.getElementById("contactButton");
+			var cVButton = document.getElementById("cVButton");
+			var homeButton = document.getElementById("homeButton");
+			var contact = document.getElementById("contact");
+			var cV = document.getElementById("cV");
+			var home = document.getElementById("home");
+			
+			var changeContentContact = function (e)
+			{
+				e.preventDefault();
+				cV.style.display = "none";
+				home.style.display = "none";
+				contact.style.display = "block";
+				
+			};
+			
+			var changeContentCV = function (e)
+			{
+				e.preventDefault();
+				contact.style.display = "none";
+				home.style.display = "none";
+				cV.style.display = "block";
+				
+			};
+			
+			var changeContentHome = function (e)
+			{
+				e.preventDefault();
+				contact.style.display = "none";
+				cV.style.display = "none";
+				home.style.display = "block";
+				
+			};
+			
+	
+			
+			contactButton.addEventListener('click', changeContentContact, false);
+			cVButton.addEventListener('click', changeContentCV, false);
+			homeButton.addEventListener('click', changeContentHome, false);
+			
+			
+		</script>
+	
+	</body>
+</html>
